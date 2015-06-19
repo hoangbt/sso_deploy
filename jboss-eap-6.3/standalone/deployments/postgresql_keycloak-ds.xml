@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema">
+    <datasource jndi-name="java:jboss/PostgresqlKeycloakDS1" pool-name="PostgresqlKeycloakDS1" enabled="true" use-java-context="true">
+        <connection-url>jdbc:postgresql://192.168.30.194:5432/keycloak</connection-url>
+        <driver>postgresql</driver>
+        <security>
+            <user-name>nvan</user-name>
+            <password>abc@123456</password>
+        </security>
+    </datasource>
+</datasources>
